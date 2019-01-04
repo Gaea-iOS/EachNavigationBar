@@ -1,0 +1,22 @@
+{
+  "name": "EachNavigationBar",
+  "version": "0.1.0",
+  "summary": "A short description of EachNavigationBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangxiaotao/EachNavigationBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangxiaotao": "445242970@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wangxiaotao/EachNavigationBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EachNavigationBar/Classes/**/*"
+}
