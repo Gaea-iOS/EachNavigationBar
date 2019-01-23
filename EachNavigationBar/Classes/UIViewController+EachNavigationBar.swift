@@ -30,7 +30,7 @@ extension UIViewController {
         navigationBar.barStyle = _navigationBar._barStyle
         navigationBar.isHidden = _navigationBar.isHidden
         if #available(iOS 11.0, *) {
-            adjustsSafeAreaInsetsAfterIOS11()
+//            adjustsSafeAreaInsetsAfterIOS11()
             navigationBar.prefersLargeTitles = _navigationBar.prefersLargeTitles
             navigationBar.largeTitleTextAttributes = _navigationBar.largeTitleTextAttributes
         }
@@ -48,10 +48,10 @@ extension UIViewController {
     }
     
     func adjustsSafeAreaInsetsAfterIOS11() {
-//        guard #available(iOS 11.0, *) else { return }
-//        additionalSafeAreaInsets.top = _navigationBar.isHidden
-//            ? -view.safeAreaInsets.top
-//            : _navigationBar.additionalHeight
+        guard #available(iOS 11.0, *) else { return }
+        additionalSafeAreaInsets.top = _navigationBar.isHidden
+            ? -view.safeAreaInsets.top
+            : _navigationBar.additionalHeight
     }
 }
 

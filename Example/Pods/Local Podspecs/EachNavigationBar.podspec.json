@@ -1,22 +1,23 @@
 {
   "name": "EachNavigationBar",
-  "version": "0.1.0",
-  "summary": "A short description of EachNavigationBar.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wangxiaotao/EachNavigationBar",
+  "version": "1.5.0",
+  "summary": "A custom navigation bar of UIViewController.",
+  "homepage": "https://github.com/Pircate/EachNavigationBar",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "wangxiaotao": "445242970@qq.com"
+    "gaoX": "gao497868860@163.com"
   },
   "source": {
-    "git": "https://github.com/wangxiaotao/EachNavigationBar.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Pircate/EachNavigationBar.git",
+    "tag": "1.5.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "EachNavigationBar/Classes/**/*"
+  "swift_version": "4.2",
+  "source_files": "EachNavigationBar/Classes/**/*",
+  "frameworks": "UIKit"
 }

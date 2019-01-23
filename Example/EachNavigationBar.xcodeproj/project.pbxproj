@@ -9,31 +9,54 @@
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		D08EFB0B31129C32F25D7D7C /* Pods_EachNavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02927A6A9B8A198EFC2BB19 /* Pods_EachNavigationBar_Example.framework */; };
+		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6C005BCC2184380E009E8D0B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C005BCB2184380E009E8D0B /* TableViewController.swift */; };
+		6CA615762181971600489F0F /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA615752181971600489F0F /* OCViewController.m */; };
+		6CFA46F821875FE000DF469C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA46F621875FE000DF469C /* MainViewController.swift */; };
+		6CFA46F921875FE000DF469C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFA46F721875FE000DF469C /* MainViewController.xib */; };
+		90C206CBEA7515B68241F673 /* Pods_EachNavigationBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7189A83D599973972FD39 /* Pods_EachNavigationBar_Tests.framework */; };
+		B50460F3208861EA00C47159 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50460F2208861EA00C47159 /* NextViewController.swift */; };
+		E6710C934001AB9DA0D518C3 /* Pods_EachNavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC958CF1AA02B5F56B43E61 /* Pods_EachNavigationBar_Example.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = EachNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		10CFB45F06C478AE1DE998ED /* EachNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EachNavigationBar.podspec; path = ../EachNavigationBar.podspec; sourceTree = "<group>"; };
-		3C1AF00C9D4E0881BC444C30 /* Pods-EachNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		389D3AD49EDE388A3635EF2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EachNavigationBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EachNavigationBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* EachNavigationBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EachNavigationBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6155E5CDC8DA2DB4A28015A5 /* Pods-EachNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Tests/Pods-EachNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		667B3C5C04614C4D677E272E /* Pods-EachNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B49F05865C38800E360BDD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8EB77485BF0BF2C4D66A9527 /* Pods_EachNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EachNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B581F184E6651EAC4E8A0173 /* Pods-EachNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Tests/Pods-EachNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8FFD9DFBF1F184532E12132 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D02927A6A9B8A198EFC2BB19 /* Pods_EachNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EachNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C005BCB2184380E009E8D0B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6CA615732181971500489F0F /* EachNavigationBar_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EachNavigationBar_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CA615742181971600489F0F /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		6CA615752181971600489F0F /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		6CFA46F621875FE000DF469C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6CFA46F721875FE000DF469C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6DC958CF1AA02B5F56B43E61 /* Pods_EachNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EachNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCDC80169FB11DA20D877F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8EF7189A83D599973972FD39 /* Pods_EachNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EachNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A117A3F435ACF9DE3690102A /* Pods-EachNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Tests/Pods-EachNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B50460F2208861EA00C47159 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		C088ADBF8B4C88FD6B82A889 /* Pods-EachNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C964FBED21DC84ED13CFEC3E /* Pods-EachNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Tests/Pods-EachNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCDF8E6E95979234BCE43BC2 /* EachNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EachNavigationBar.podspec; path = ../EachNavigationBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8650B3C8219004704BFEEDE /* Pods-EachNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EachNavigationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +64,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08EFB0B31129C32F25D7D7C /* Pods_EachNavigationBar_Example.framework in Frameworks */,
+				E6710C934001AB9DA0D518C3 /* Pods_EachNavigationBar_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C206CBEA7515B68241F673 /* Pods_EachNavigationBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +86,8 @@
 				607FACD21AFB9204008FA782 /* Example for EachNavigationBar */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				DEB7B1627019AB404301E40F /* Pods */,
-				DA175F760C6E0C2431B9EB9C /* Frameworks */,
+				AF881A2063B4980D719509D9 /* Pods */,
+				CF60BDBB3E50D21B345BE30F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* EachNavigationBar_Example.app */,
+				607FACE51AFB9204008FA782 /* EachNavigationBar_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,11 +104,17 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				6CFA46F621875FE000DF469C /* MainViewController.swift */,
+				6CFA46F721875FE000DF469C /* MainViewController.xib */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				B50460F2208861EA00C47159 /* NextViewController.swift */,
+				6C005BCB2184380E009E8D0B /* TableViewController.swift */,
+				6CA615742181971600489F0F /* OCViewController.h */,
+				6CA615752181971600489F0F /* OCViewController.m */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				6CA615732181971500489F0F /* EachNavigationBar_Example-Bridging-Header.h */,
 			);
 			name = "Example for EachNavigationBar";
 			path = EachNavigationBar;
@@ -110,31 +148,31 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				10CFB45F06C478AE1DE998ED /* EachNavigationBar.podspec */,
-				B8FFD9DFBF1F184532E12132 /* README.md */,
-				8B49F05865C38800E360BDD2 /* LICENSE */,
+				CCDF8E6E95979234BCE43BC2 /* EachNavigationBar.podspec */,
+				7CCDC80169FB11DA20D877F8 /* README.md */,
+				389D3AD49EDE388A3635EF2F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		DA175F760C6E0C2431B9EB9C /* Frameworks */ = {
+		AF881A2063B4980D719509D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D02927A6A9B8A198EFC2BB19 /* Pods_EachNavigationBar_Example.framework */,
-				8EB77485BF0BF2C4D66A9527 /* Pods_EachNavigationBar_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DEB7B1627019AB404301E40F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3C1AF00C9D4E0881BC444C30 /* Pods-EachNavigationBar_Example.debug.xcconfig */,
-				667B3C5C04614C4D677E272E /* Pods-EachNavigationBar_Example.release.xcconfig */,
-				B581F184E6651EAC4E8A0173 /* Pods-EachNavigationBar_Tests.debug.xcconfig */,
-				6155E5CDC8DA2DB4A28015A5 /* Pods-EachNavigationBar_Tests.release.xcconfig */,
+				E8650B3C8219004704BFEEDE /* Pods-EachNavigationBar_Example.debug.xcconfig */,
+				C088ADBF8B4C88FD6B82A889 /* Pods-EachNavigationBar_Example.release.xcconfig */,
+				C964FBED21DC84ED13CFEC3E /* Pods-EachNavigationBar_Tests.debug.xcconfig */,
+				A117A3F435ACF9DE3690102A /* Pods-EachNavigationBar_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF60BDBB3E50D21B345BE30F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DC958CF1AA02B5F56B43E61 /* Pods_EachNavigationBar_Example.framework */,
+				8EF7189A83D599973972FD39 /* Pods_EachNavigationBar_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,11 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EachNavigationBar_Example" */;
 			buildPhases = (
-				C64CB1F007F5590537567C3D /* [CP] Check Pods Manifest.lock */,
+				56B247BAC38286BC0C0CAB2C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				6C3AF2D5E28DB84A80E8419E /* [CP] Embed Pods Frameworks */,
+				56B902B4C400C49672852AC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +197,25 @@
 			productReference = 607FACD01AFB9204008FA782 /* EachNavigationBar_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		607FACE41AFB9204008FA782 /* EachNavigationBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EachNavigationBar_Tests" */;
+			buildPhases = (
+				D79DD291938FB2823CEA273D /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = EachNavigationBar_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* EachNavigationBar_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,12 +223,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1000;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -189,6 +251,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* EachNavigationBar_Example */,
+				607FACE41AFB9204008FA782 /* EachNavigationBar_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,53 +261,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				6CFA46F921875FE000DF469C /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C3AF2D5E28DB84A80E8419E /* [CP] Embed Pods Frameworks */ = {
+		56B247BAC38286BC0C0CAB2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/EachNavigationBar/EachNavigationBar.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EachNavigationBar.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C64CB1F007F5590537567C3D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-EachNavigationBar_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B902B4C400C49672852AC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EachNavigationBar/EachNavigationBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EachNavigationBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EachNavigationBar_Example/Pods-EachNavigationBar_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79DD291938FB2823CEA273D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EachNavigationBar_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -258,22 +338,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFA46F821875FE000DF469C /* MainViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B50460F3208861EA00C47159 /* NextViewController.swift in Sources */,
+				6CA615762181971600489F0F /* OCViewController.m in Sources */,
+				6C005BCC2184380E009E8D0B /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* EachNavigationBar_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -390,27 +482,62 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C1AF00C9D4E0881BC444C30 /* Pods-EachNavigationBar_Example.debug.xcconfig */;
+			baseConfigurationReference = E8650B3C8219004704BFEEDE /* Pods-EachNavigationBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EachNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/EachNavigationBar/EachNavigationBar_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 667B3C5C04614C4D677E272E /* Pods-EachNavigationBar_Example.release.xcconfig */;
+			baseConfigurationReference = C088ADBF8B4C88FD6B82A889 /* Pods-EachNavigationBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EachNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/EachNavigationBar/EachNavigationBar_Example-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C964FBED21DC84ED13CFEC3E /* Pods-EachNavigationBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A117A3F435ACF9DE3690102A /* Pods-EachNavigationBar_Tests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -433,6 +560,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EachNavigationBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

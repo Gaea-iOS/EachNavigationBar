@@ -1,5 +1,5 @@
 PODS:
-  - EachNavigationBar (0.1.0)
+  - EachNavigationBar (1.5.0)
 
 DEPENDENCIES:
   - EachNavigationBar (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EachNavigationBar: d64c5ed123e7481d0209aa8b0de8a6be25bd5af8
+  EachNavigationBar: 2e5a4e096d3fe4f498cafdb52b5fb35d7159dd2b
 
-PODFILE CHECKSUM: 6812157fb526ddf960d9385e1257263e04ac71aa
+PODFILE CHECKSUM: 484da1a90d716088c4f2d0b67fbfeb113641fbe3
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
